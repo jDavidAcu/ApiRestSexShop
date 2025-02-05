@@ -1,0 +1,630 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|c:\\users\\josed\\onedrive\\documents\\integracion de servicios 2024\\tercer parcial\\backend_sex_shop\\rest_phones\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|solutionrelative:rest_phones\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\accesodatos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\datos\\datos_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|solutionrelative:datos\\datos_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\logica\\logica_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|solutionrelative:logica\\logica_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\rest_phones\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|solutionrelative:rest_phones\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\accesodatos\\clasesparciales\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\clasesparciales\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\accesodatos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\datos\\datos_integracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|solutionrelative:datos\\datos_integracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\logica\\logica_integracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|solutionrelative:logica\\logica_integracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\accesodatos\\dto\\integracionarriendo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\dto\\integracionarriendo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\ws_soa_sexshop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|solutionrelative:ws_soa_sexshop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\rest_phones\\controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|solutionrelative:rest_phones\\controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\logica\\logica_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|solutionrelative:logica\\logica_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\rest_phones\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|solutionrelative:rest_phones\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\ws_soa_sexshop\\api_producto.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|solutionrelative:ws_soa_sexshop\\api_producto.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\ws_soa_sexshop\\api_integracion.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|solutionrelative:ws_soa_sexshop\\api_integracion.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\rest_phones\\controllers\\detalle_facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|solutionrelative:rest_phones\\controllers\\detalle_facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\ws_soa_sexshop\\api_usuario.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|solutionrelative:ws_soa_sexshop\\api_usuario.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\rest_phones\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|solutionrelative:rest_phones\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\rest_phones\\controllers\\datosgeneralescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|solutionrelative:rest_phones\\controllers\\datosgeneralescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\rest_phones\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|solutionrelative:rest_phones\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\rest_phones\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|solutionrelative:rest_phones\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\rest_phones\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B351B71-1505-4957-B812-EF2DB20773D3}|REST_Phones\\REST_Phones.csproj|solutionrelative:rest_phones\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\ws_soa_sexshop\\api_reportes.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|solutionrelative:ws_soa_sexshop\\api_reportes.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\ws_soa_sexshop\\api_factura.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|solutionrelative:ws_soa_sexshop\\api_factura.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\ws_soa_sexshop\\api_detalle_factura.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|solutionrelative:ws_soa_sexshop\\api_detalle_factura.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\ws_soa_sexshop\\api_datos_generales.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4654707A-C0DD-4FD0-ADC5-C73EE3B87B18}|WS_SOA_SexShop\\WS_SOA_SexShop.csproj|solutionrelative:ws_soa_sexshop\\api_datos_generales.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\logica\\logica_reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|solutionrelative:logica\\logica_reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\logica\\logica_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|solutionrelative:logica\\logica_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\logica\\logica_detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|solutionrelative:logica\\logica_detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\logica\\logica_datos_generales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B516661A-3CDC-47AC-8BEE-B4F1F0584883}|Logica\\Logica.csproj|solutionrelative:logica\\logica_datos_generales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\datos\\datos_reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|solutionrelative:datos\\datos_reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\datos\\datos_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|solutionrelative:datos\\datos_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\datos\\datos_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|solutionrelative:datos\\datos_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\datos\\datos_detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|solutionrelative:datos\\datos_detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\datos\\datos_datos_generales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0135A4A-D1BF-40AB-9CBF-93B51E95B544}|Datos\\Datos.csproj|solutionrelative:datos\\datos_datos_generales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\accesodatos\\detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\accesodatos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002D5377-3F53-4A1A-92FA-82DAB50B7FB4}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Web.config",
+              "RelativeDocumentMoniker": "REST_Phones\\Web.config",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Web.config",
+              "RelativeToolTip": "REST_Phones\\Web.config",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-10T13:40:44.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\App.config",
+              "RelativeDocumentMoniker": "AccesoDatos\\App.config",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\App.config",
+              "RelativeToolTip": "AccesoDatos\\App.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-10T13:39:11.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "REST_Phones\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "REST_Phones\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:16:04.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logica_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Usuario.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Usuario.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Usuario.cs",
+              "RelativeToolTip": "Logica\\Logica_Usuario.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:26:05.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Datos_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Usuario.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Usuario.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Usuario.cs",
+              "RelativeToolTip": "Datos\\Datos_Usuario.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:05:41.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "USUARIO.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\USUARIO.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\USUARIO.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\USUARIO.cs",
+              "RelativeToolTip": "AccesoDatos\\USUARIO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:01:36.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "USUARIO.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\ClasesParciales\\USUARIO.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\ClasesParciales\\USUARIO.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\ClasesParciales\\USUARIO.cs",
+              "RelativeToolTip": "AccesoDatos\\ClasesParciales\\USUARIO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:58:00.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Datos_INTEGRACION.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_INTEGRACION.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_INTEGRACION.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_INTEGRACION.cs",
+              "RelativeToolTip": "Datos\\Datos_INTEGRACION.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:43:33.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Logica_INTEGRACION.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_INTEGRACION.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_INTEGRACION.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_INTEGRACION.cs",
+              "RelativeToolTip": "Logica\\Logica_INTEGRACION.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:45:09.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IntegracionController.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\IntegracionController.cs",
+              "RelativeDocumentMoniker": "REST_Phones\\Controllers\\IntegracionController.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\IntegracionController.cs",
+              "RelativeToolTip": "REST_Phones\\Controllers\\IntegracionController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:04:22.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IntegracionARRIENDO.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\DTO\\IntegracionARRIENDO.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\DTO\\IntegracionARRIENDO.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\DTO\\IntegracionARRIENDO.cs",
+              "RelativeToolTip": "AccesoDatos\\DTO\\IntegracionARRIENDO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:42:24.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Web.config",
+              "RelativeDocumentMoniker": "WS_SOA_SexShop\\Web.config",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Web.config",
+              "RelativeToolTip": "WS_SOA_SexShop\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-10T13:40:27.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Logica_Factura.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Factura.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Factura.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Factura.cs",
+              "RelativeToolTip": "Logica\\Logica_Factura.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:23:34.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "REST_Phones\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "REST_Phones\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:34:34.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Api_Producto.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Producto.asmx.cs",
+              "RelativeDocumentMoniker": "WS_SOA_SexShop\\Api_Producto.asmx.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Producto.asmx.cs",
+              "RelativeToolTip": "WS_SOA_SexShop\\Api_Producto.asmx.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA1wC8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:40:55.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "API_Integracion.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\API_Integracion.asmx.cs",
+              "RelativeDocumentMoniker": "WS_SOA_SexShop\\API_Integracion.asmx.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\API_Integracion.asmx.cs",
+              "RelativeToolTip": "WS_SOA_SexShop\\API_Integracion.asmx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:48:17.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Detalle_FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\Detalle_FacturaController.cs",
+              "RelativeDocumentMoniker": "REST_Phones\\Controllers\\Detalle_FacturaController.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\Detalle_FacturaController.cs",
+              "RelativeToolTip": "REST_Phones\\Controllers\\Detalle_FacturaController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:14:55.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Api_Usuario.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Usuario.asmx.cs",
+              "RelativeDocumentMoniker": "WS_SOA_SexShop\\Api_Usuario.asmx.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Usuario.asmx.cs",
+              "RelativeToolTip": "WS_SOA_SexShop\\Api_Usuario.asmx.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:36:48.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DatosGeneralesController.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\DatosGeneralesController.cs",
+              "RelativeDocumentMoniker": "REST_Phones\\Controllers\\DatosGeneralesController.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\DatosGeneralesController.cs",
+              "RelativeToolTip": "REST_Phones\\Controllers\\DatosGeneralesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:14:37.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "REST_Phones\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "REST_Phones\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T22:10:17.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "REST_Phones\\Controllers\\ReportesController.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "REST_Phones\\Controllers\\ReportesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:15:44.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "REST_Phones\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "REST_Phones\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T22:10:36.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "REST_Phones\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\REST_Phones\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "REST_Phones\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T22:08:06.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Api_Factura.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Factura.asmx.cs",
+              "RelativeDocumentMoniker": "WS_SOA_SexShop\\Api_Factura.asmx.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Factura.asmx.cs",
+              "RelativeToolTip": "WS_SOA_SexShop\\Api_Factura.asmx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:37:44.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Api_Detalle_Factura.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Detalle_Factura.asmx.cs",
+              "RelativeDocumentMoniker": "WS_SOA_SexShop\\Api_Detalle_Factura.asmx.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Detalle_Factura.asmx.cs",
+              "RelativeToolTip": "WS_SOA_SexShop\\Api_Detalle_Factura.asmx.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:40:34.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Api_Datos_Generales.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Datos_Generales.asmx.cs",
+              "RelativeDocumentMoniker": "WS_SOA_SexShop\\Api_Datos_Generales.asmx.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Datos_Generales.asmx.cs",
+              "RelativeToolTip": "WS_SOA_SexShop\\Api_Datos_Generales.asmx.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:38:05.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Api_Reportes.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Reportes.asmx.cs",
+              "RelativeDocumentMoniker": "WS_SOA_SexShop\\Api_Reportes.asmx.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\WS_SOA_SexShop\\Api_Reportes.asmx.cs",
+              "RelativeToolTip": "WS_SOA_SexShop\\Api_Reportes.asmx.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:37:25.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Logica_Reportes.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Reportes.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Reportes.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Reportes.cs",
+              "RelativeToolTip": "Logica\\Logica_Reportes.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:50:03.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Logica_Producto.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Producto.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Producto.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Producto.cs",
+              "RelativeToolTip": "Logica\\Logica_Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:27:03.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Logica_Detalle_Factura.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Detalle_Factura.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Detalle_Factura.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Detalle_Factura.cs",
+              "RelativeToolTip": "Logica\\Logica_Detalle_Factura.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:18:48.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Logica_Datos_Generales.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Datos_Generales.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Datos_Generales.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Logica\\Logica_Datos_Generales.cs",
+              "RelativeToolTip": "Logica\\Logica_Datos_Generales.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:47:22.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Datos_Reportes.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Reportes.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Reportes.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Reportes.cs",
+              "RelativeToolTip": "Datos\\Datos_Reportes.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA+wBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:06:26.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Datos_Producto.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Producto.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Producto.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Producto.cs",
+              "RelativeToolTip": "Datos\\Datos_Producto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:05:21.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Datos_Factura.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Factura.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Factura.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Factura.cs",
+              "RelativeToolTip": "Datos\\Datos_Factura.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:04:49.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Datos_Detalle_Factura.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Detalle_Factura.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Detalle_Factura.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Detalle_Factura.cs",
+              "RelativeToolTip": "Datos\\Datos_Detalle_Factura.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:04:24.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Datos_Datos_Generales.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Datos_Generales.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Datos_Generales.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\Datos\\Datos_Datos_Generales.cs",
+              "RelativeToolTip": "Datos\\Datos_Datos_Generales.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwBoAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:03:49.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DETALLE_FACTURA.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\DETALLE_FACTURA.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\DETALLE_FACTURA.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\DETALLE_FACTURA.cs",
+              "RelativeToolTip": "AccesoDatos\\DETALLE_FACTURA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:32:32.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PRODUCTO.cs",
+              "DocumentMoniker": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\PRODUCTO.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\PRODUCTO.cs",
+              "ToolTip": "C:\\Users\\josed\\OneDrive\\Documents\\Integracion De Servicios 2024\\Tercer Parcial\\BackEnd_Sex_Shop\\AccesoDatos\\PRODUCTO.cs",
+              "RelativeToolTip": "AccesoDatos\\PRODUCTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:03:52.254Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

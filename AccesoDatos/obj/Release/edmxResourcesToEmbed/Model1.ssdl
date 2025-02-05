@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelPEPE_SEX_SHOP.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DATOS_GENERALES">
+    <Key>
+      <PropertyRef Name="EMP_ID" />
+    </Key>
+    <Property Name="EMP_ID" Type="int" Nullable="false" />
+    <Property Name="EMP_NCUENTA" Type="int" Nullable="false" />
+    <Property Name="IVA" Type="numeric" Precision="8" Scale="0" Nullable="false" />
+    <Property Name="NUM_FAC" Type="numeric" Precision="8" Scale="0" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'PEPE_SEX_SHOP.dbo.DETALLE_FACTURA' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="DETALLE_FACTURA">
+    <Key>
+      <PropertyRef Name="FAC_NUMERO" />
+      <PropertyRef Name="PRD_ID" />
+      <PropertyRef Name="PRD_CANTIDAD" />
+      <PropertyRef Name="PRD_SUBTOTAL" />
+    </Key>
+    <Property Name="FAC_NUMERO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="PRD_ID" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="PRD_CANTIDAD" Type="numeric" Precision="8" Scale="0" Nullable="false" />
+    <Property Name="PRD_SUBTOTAL" Type="decimal" Precision="8" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FACTURA">
+    <Key>
+      <PropertyRef Name="FAC_NUMERO" />
+    </Key>
+    <Property Name="FAC_NUMERO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="USU_DNI" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="USU_NOMBRE" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="USU_CORREO" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FAC_DIRECCION" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="FAC_TELEFONO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="FAC_FECHA" Type="datetime" Nullable="false" />
+    <Property Name="FAC_TOTAL" Type="numeric" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="FAC_ESTADO" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PRODUCTO">
+    <Key>
+      <PropertyRef Name="PRD_ID" />
+    </Key>
+    <Property Name="PRD_ID" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="PRD_NOMBRE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PRD_DESC" Type="varchar" MaxLength="1000" />
+    <Property Name="PRD_MARCA" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PRD_STOCK" Type="numeric" Precision="8" Scale="0" Nullable="false" />
+    <Property Name="PRD_PRECIO" Type="numeric" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="PRD_IMAGEN" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="USU_DNI" />
+    </Key>
+    <Property Name="USU_DNI" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="USU_NOMBRE" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="USU_CONTRASENA" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_DETALLE__FACTURA_T_FACTURA">
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FACTURA">
+        <PropertyRef Name="FAC_NUMERO" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="FAC_NUMERO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE__PRODUCTO__PRODUCTO">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="PRD_ID" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="PRD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FACTURA_USUARIO_C_USUARIO">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="USU_DNI" />
+      </Principal>
+      <Dependent Role="FACTURA">
+        <PropertyRef Name="USU_DNI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="SP_GastoTotalPorUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_ProductoConMasIngresos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_ProductosMasVendidos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_PromedioGastoPorUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_UsuariosConGastoMayor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MontoMinimo" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="SP_VentasPorMes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="ModelPEPE_SEX_SHOPStoreContainer">
+    <EntitySet Name="DATOS_GENERALES" EntityType="Self.DATOS_GENERALES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FACTURA" EntityType="Self.FACTURA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRODUCTO" EntityType="Self.PRODUCTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DETALLE_FACTURA" EntityType="Self.DETALLE_FACTURA" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [DETALLE_FACTURA].[FAC_NUMERO] AS [FAC_NUMERO], 
+    [DETALLE_FACTURA].[PRD_ID] AS [PRD_ID], 
+    [DETALLE_FACTURA].[PRD_CANTIDAD] AS [PRD_CANTIDAD], 
+    [DETALLE_FACTURA].[PRD_SUBTOTAL] AS [PRD_SUBTOTAL]
+    FROM [dbo].[DETALLE_FACTURA] AS [DETALLE_FACTURA]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_DETALLE__FACTURA_T_FACTURA" Association="Self.FK_DETALLE__FACTURA_T_FACTURA">
+      <End Role="FACTURA" EntitySet="FACTURA" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE__PRODUCTO__PRODUCTO" Association="Self.FK_DETALLE__PRODUCTO__PRODUCTO">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FACTURA_USUARIO_C_USUARIO" Association="Self.FK_FACTURA_USUARIO_C_USUARIO">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="FACTURA" EntitySet="FACTURA" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

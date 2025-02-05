@@ -1,0 +1,28 @@
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\bin\Release\Logica.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\bin\Release\Logica.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\bin\Release\AccesoDatos.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\bin\Release\Datos.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\bin\Release\EntityFramework.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\bin\Release\AccesoDatos.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\bin\Release\AccesoDatos.dll.config
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\bin\Release\Datos.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\bin\Release\EntityFramework.xml
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\obj\Release\Logica.csproj.AssemblyReference.cache
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\obj\Release\Logica.csproj.CoreCompileInputs.cache
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\obj\Release\Logica.csproj.Up2Date
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\obj\Release\Logica.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Logica\obj\Release\Logica.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\bin\Release\Logica.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\bin\Release\Logica.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\bin\Release\AccesoDatos.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\bin\Release\Datos.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\bin\Release\EntityFramework.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\bin\Release\AccesoDatos.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\bin\Release\AccesoDatos.dll.config
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\bin\Release\Datos.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\bin\Release\EntityFramework.xml
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\obj\Release\Logica.csproj.AssemblyReference.cache
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\obj\Release\Logica.csproj.CoreCompileInputs.cache
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\obj\Release\Logica.csproj.Up2Date
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\obj\Release\Logica.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Logica\obj\Release\Logica.pdb

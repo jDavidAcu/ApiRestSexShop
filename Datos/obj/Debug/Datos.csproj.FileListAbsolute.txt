@@ -1,0 +1,36 @@
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\bin\Debug\Datos.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\bin\Debug\Datos.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\bin\Debug\AccesoDatos.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\bin\Debug\EntityFramework.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\bin\Debug\AccesoDatos.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\bin\Debug\AccesoDatos.dll.config
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\bin\Debug\EntityFramework.xml
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.csproj.Up2Date
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.pdb
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\bin\Debug\Datos.dll
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\bin\Debug\Datos.pdb
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\bin\Debug\AccesoDatos.dll
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\bin\Debug\EntityFramework.dll
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\bin\Debug\AccesoDatos.pdb
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\bin\Debug\AccesoDatos.dll.config
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\bin\Debug\EntityFramework.xml
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.csproj.Up2Date
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.dll
+C:\Integracion\Parcial2\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\bin\Debug\Datos.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\bin\Debug\Datos.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\bin\Debug\AccesoDatos.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\bin\Debug\EntityFramework.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\bin\Debug\AccesoDatos.pdb
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\bin\Debug\AccesoDatos.dll.config
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\bin\Debug\EntityFramework.xml
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.csproj.Up2Date
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.dll
+C:\Users\josed\OneDrive\Documents\Integracion De Servicios 2024\Tercer Parcial\BackEnd_Sex_Shop\Datos\obj\Debug\Datos.pdb

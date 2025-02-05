@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelPEPE_SEX_SHOP" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DATOS_GENERALES">
+    <Key>
+      <PropertyRef Name="EMP_ID" />
+    </Key>
+    <Property Name="EMP_ID" Type="Int32" Nullable="false" />
+    <Property Name="EMP_NCUENTA" Type="Int32" Nullable="false" />
+    <Property Name="IVA" Type="Decimal" Precision="8" Scale="0" Nullable="false" />
+    <Property Name="NUM_FAC" Type="Decimal" Precision="8" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FACTURA">
+    <Key>
+      <PropertyRef Name="FAC_NUMERO" />
+    </Key>
+    <Property Name="FAC_NUMERO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USU_DNI" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USU_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USU_CORREO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FAC_DIRECCION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FAC_TELEFONO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FAC_FECHA" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FAC_TOTAL" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="FAC_ESTADO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="DETALLE_FACTURA" Relationship="Self.FK_DETALLE__FACTURA_T_FACTURA" FromRole="FACTURA" ToRole="DETALLE_FACTURA" />
+    <NavigationProperty Name="USUARIO" Relationship="Self.FK_FACTURA_USUARIO_C_USUARIO" FromRole="FACTURA" ToRole="USUARIO" />
+  </EntityType>
+  <EntityType Name="PRODUCTO">
+    <Key>
+      <PropertyRef Name="PRD_ID" />
+    </Key>
+    <Property Name="PRD_ID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PRD_NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PRD_DESC" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="PRD_MARCA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PRD_STOCK" Type="Decimal" Precision="8" Scale="0" Nullable="false" />
+    <Property Name="PRD_PRECIO" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="PRD_IMAGEN" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="DETALLE_FACTURA" Relationship="Self.FK_DETALLE__PRODUCTO__PRODUCTO" FromRole="PRODUCTO" ToRole="DETALLE_FACTURA" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="USU_DNI" />
+    </Key>
+    <Property Name="USU_DNI" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USU_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USU_CONTRASENA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="FACTURA" Relationship="Self.FK_FACTURA_USUARIO_C_USUARIO" FromRole="USUARIO" ToRole="FACTURA" />
+  </EntityType>
+  <EntityType Name="DETALLE_FACTURA">
+    <Key>
+      <PropertyRef Name="FAC_NUMERO" />
+      <PropertyRef Name="PRD_ID" />
+      <PropertyRef Name="PRD_CANTIDAD" />
+      <PropertyRef Name="PRD_SUBTOTAL" />
+    </Key>
+    <Property Name="FAC_NUMERO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PRD_ID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PRD_CANTIDAD" Type="Decimal" Precision="8" Scale="0" Nullable="false" />
+    <Property Name="PRD_SUBTOTAL" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <NavigationProperty Name="FACTURA" Relationship="Self.FK_DETALLE__FACTURA_T_FACTURA" FromRole="DETALLE_FACTURA" ToRole="FACTURA" />
+    <NavigationProperty Name="PRODUCTO" Relationship="Self.FK_DETALLE__PRODUCTO__PRODUCTO" FromRole="DETALLE_FACTURA" ToRole="PRODUCTO" />
+  </EntityType>
+  <Association Name="FK_DETALLE__FACTURA_T_FACTURA">
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FACTURA">
+        <PropertyRef Name="FAC_NUMERO" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="FAC_NUMERO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FACTURA_USUARIO_C_USUARIO">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="USU_DNI" />
+      </Principal>
+      <Dependent Role="FACTURA">
+        <PropertyRef Name="USU_DNI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE__PRODUCTO__PRODUCTO">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="PRD_ID" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="PRD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EntitiesPEPE_SEX_SHOP" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DATOS_GENERALES" EntityType="Self.DATOS_GENERALES" />
+    <EntitySet Name="FACTURA" EntityType="Self.FACTURA" />
+    <EntitySet Name="PRODUCTO" EntityType="Self.PRODUCTO" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" />
+    <EntitySet Name="DETALLE_FACTURA" EntityType="Self.DETALLE_FACTURA" />
+    <AssociationSet Name="FK_DETALLE__FACTURA_T_FACTURA" Association="Self.FK_DETALLE__FACTURA_T_FACTURA">
+      <End Role="FACTURA" EntitySet="FACTURA" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FACTURA_USUARIO_C_USUARIO" Association="Self.FK_FACTURA_USUARIO_C_USUARIO">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="FACTURA" EntitySet="FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE__PRODUCTO__PRODUCTO" Association="Self.FK_DETALLE__PRODUCTO__PRODUCTO">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <FunctionImport Name="SP_GastoTotalPorUsuario" ReturnType="Collection(ModelPEPE_SEX_SHOP.SP_GastoTotalPorUsuario_Result)" />
+    <FunctionImport Name="SP_ProductoConMasIngresos" ReturnType="Collection(ModelPEPE_SEX_SHOP.SP_ProductoConMasIngresos_Result)" />
+    <FunctionImport Name="SP_ProductosMasVendidos" ReturnType="Collection(ModelPEPE_SEX_SHOP.SP_ProductosMasVendidos_Result)" />
+    <FunctionImport Name="SP_PromedioGastoPorUsuario" ReturnType="Collection(ModelPEPE_SEX_SHOP.SP_PromedioGastoPorUsuario_Result)" />
+    <FunctionImport Name="SP_UsuariosConGastoMayor" ReturnType="Collection(ModelPEPE_SEX_SHOP.SP_UsuariosConGastoMayor_Result)">
+      <Parameter Name="MontoMinimo" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="SP_VentasPorMes" ReturnType="Collection(ModelPEPE_SEX_SHOP.SP_VentasPorMes_Result)" />
+  </EntityContainer>
+  <ComplexType Name="SP_GastoTotalPorUsuario_Result">
+    <Property Type="String" Name="USU_DNI" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="USU_NOMBRE" Nullable="false" MaxLength="100" />
+    <Property Type="Decimal" Name="TotalGastado" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="SP_ProductoConMasIngresos_Result">
+    <Property Type="String" Name="PRD_NOMBRE" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="TotalIngresos" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="SP_ProductosMasVendidos_Result">
+    <Property Type="String" Name="PRD_NOMBRE" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="TotalVendido" Nullable="true" Precision="38" Scale="0" />
+  </ComplexType>
+  <ComplexType Name="SP_PromedioGastoPorUsuario_Result">
+    <Property Type="String" Name="USU_DNI" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="USU_NOMBRE" Nullable="false" MaxLength="100" />
+    <Property Type="Decimal" Name="PromedioGasto" Nullable="true" Precision="38" Scale="6" />
+  </ComplexType>
+  <ComplexType Name="SP_UsuariosConGastoMayor_Result">
+    <Property Type="String" Name="USU_DNI" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="USU_NOMBRE" Nullable="false" MaxLength="100" />
+    <Property Type="Decimal" Name="TotalGastado" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="SP_VentasPorMes_Result">
+    <Property Type="Int32" Name="Anio" Nullable="true" />
+    <Property Type="Int32" Name="Mes" Nullable="true" />
+    <Property Type="Decimal" Name="TotalVentas" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+</Schema>
