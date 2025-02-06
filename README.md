@@ -20,12 +20,12 @@ El sistema expone diversas APIs REST para interactuar con la base de datos. Para
 
 ## Conexión con la Base de Datos
 
-La conexión con la base de datos se realiza a través de un servidor privado y gratuito en **Hostinger**. La cadena de conexión puede ser revisada en el archivo `web.config`. Si prefieres trabajar en un entorno local, he subido una copia de la base de datos en formato **.bacpac** para facilitar la restauración.
+La conexión con la base de datos se realiza a través de un servidor privado y gratuito en **Hostinger**. La cadena de conexión puede ser revisada en el archivo `web.config`. Si prefieres trabajar en un entorno local, he subido una copia de la base de datos en formato **.bak** para facilitar la restauración.
 
 ## Instalación Local
 
-1. Descarga el archivo **.bacpac** de la base de datos.
-2. Restaura el archivo **.bacpac** en tu servidor local de SQL Server.
+1. Descarga el archivo **.bak** de la base de datos.
+2. Restaura el archivo **.bak** en tu servidor local de SQL Server.
 3. Revisa y actualiza la cadena de conexión en el archivo `web.config` con los parámetros adecuados para tu entorno local.
 
 ## Recomendaciones
